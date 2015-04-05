@@ -27,3 +27,14 @@ storage.set("hello", { message: "World" });
 ```
 
 #### Cache
+
+```js
+var Cache = require("hr.cache").Cache;
+
+var cache = new Cache({
+    namespace: "files"
+});
+
+// Set a value
+cache.set("README.md", { content: "File content "}, 60*1000);
+```

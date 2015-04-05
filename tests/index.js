@@ -19,3 +19,19 @@ describe('Storage', function() {
     });
 });
 
+describe('Cache', function() {
+    var cache = new Cache({
+        namespace: "test"
+    });
+
+    it('should correctly set/get a value', function(done) {
+        cache.set("test", "hello", 200);
+        expect(cache.get("test")).to.equal("hello");
+
+        setTimeout(function() {
+            expect(cache.get("test")).to.equal(undefined);
+            done();
+        }, 1000);
+    });
+});
+
