@@ -1,7 +1,7 @@
 {
     "name": "hr.storage",
     "description": "Local storage and caching utility for HappyRhino",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "main": "./lib/index.js",
     "peerDependencies": {
         "hr.utils": "*",
