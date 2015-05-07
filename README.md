@@ -1,7 +1,7 @@
 hr.storage [![Build Status](https://travis-ci.org/HappyRhino/hr.storage.png?branch=master)](https://travis-ci.org/HappyRhino/hr.storage)
 =============================
 
-> Local storage and caching utility for HappyRhino
+> Local storage and caching utility
 
 ## Installation
 
