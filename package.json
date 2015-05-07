@@ -14,7 +14,7 @@
         "test": "./node_modules/.bin/hr-mocha ./tests/index.js"
     },
     "dependencies": {
-        "hr.utils": "*",
-        "hr.class": "*"
+        "lodash": "*",
+        "hr.class": ">=2.0.0"
     }
 }
